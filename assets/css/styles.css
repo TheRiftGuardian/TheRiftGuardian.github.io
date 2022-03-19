@@ -71,6 +71,12 @@ section {
 	padding: 0.2rem;
 }
 
+.project-title {
+	color: #05ac93;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
 a.nav-item {
 	color: #dfdfdf;
 }
@@ -96,8 +102,8 @@ a.nav-item:hover {
 
 .project-figure {
 	margin: 0 auto 1rem auto;
-	max-height: 256px;
-	max-width: 256px;
+	max-height: 500px;
+	max-width: 500px;
 }
 
 .project-text {
