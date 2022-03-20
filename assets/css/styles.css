@@ -2,15 +2,15 @@ html,
 body {
 	font-size: 20px;
 	color: #dfdfdf;
-	background-color: #063647;
+	background-color: #242582;
 }
 
 a {
-	color: #00d1b2;
+	color: #ee4c7c;
 }
 
 a:hover {
-	color: #00d1b2;
+	color: #ee4c7c;
 }
 
 section {
@@ -47,32 +47,32 @@ section {
 }
 
 .section-1 {
-	background-color: #07374b;
+	background-color: #1f217e;
 }
 
 .section-pData {
-	background: #063647;
+	background: #1d1e7c;
 }
 
 .section-aCreds {
-	background-color: #053142;
+	background-color: #1c1d75;
 }
 
 .section-2 {
-	background-color: #052d3d;
+	background-color: #191b74;
 }
 
 .section-3 {
-	background-color: #0e282e;
+	background-color: #171970;
 }
 
 .section-4 {
-	background-color: #063647;
+	background-color: #242582;
 	padding: 0.2rem;
 }
 
 .project-title {
-	color: #05ac93;
+	color: #e3e2df;
 	font-size: 30px;
 	text-decoration: underline;
 }
@@ -135,8 +135,13 @@ a.nav-item:hover {
 	background-color: transparent;
 }
 
+.width-50 {
+	width: 50%;
+	margin: auto;
+}
+
 .collapsible {
-	background-color: #777;
+	background-color: #f64c72;
 	color: white;
 	cursor: pointer;
 	padding: 18px;
@@ -149,7 +154,7 @@ a.nav-item:hover {
 
 .active,
 .collapsible:hover {
-	background-color: #555;
+	background-color: #553d67;
 }
 .content {
 	padding: 0 18px;
@@ -162,9 +167,16 @@ a.nav-item:hover {
 	text-align: center;
 }
 
+.button-css {
+	background-color: #6b0022;
+	color: white;
+	border-color: rgba(7, 59, 79, 0.5);
+	font-size: 15px;
+}
+
 @media screen and (max-width: 768px) {
 	.nav-menu {
-		background-color: #063647;
+		background-color: #242582;
 	}
 
 	.nav-toggle:hover {
